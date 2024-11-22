@@ -8,12 +8,3 @@ for(i = 0; i <= arr.length - 1; i++) {
     }
     console.log(even);
 }
-
-// Odd numbers
-for(i = 0; i <= arr.length - 1; i++) {
-    let odd = "";
-    if (arr[i] % 2 !== 0) {
-        odd = arr[i] + " ";
-    }
-    console.log(odd);
-}
